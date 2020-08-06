@@ -1,0 +1,185 @@
+{
+  "Version": null,
+  "Settings": {
+    "Delay": 10.0,
+    "Log": true
+  },
+  "DefaultMultipliers": {
+    "Loot": {
+      "Value": 2.0,
+      "WhiteList": [
+        "loot-barrel-1",
+        "loot-barrel-2",
+        "loot_barrel_1",
+        "loot_barrel_2",
+        "crate_underwater_basic",
+        "crate_underwater_advanced",
+        "foodbox",
+        "trash-pile-1",
+        "minecart",
+        "oil_barrel",
+        "crate_basic",
+        "crate_mine",
+        "crate_tools",
+        "crate_normal",
+        "crate_normal_2",
+        "crate_normal_2_food",
+        "crate_normal_2_medical",
+        "crate_elite",
+        "codelockedhackablecrate",
+        "bradley_crate",
+        "heli_crate",
+        "supply_drop"
+      ],
+      "BlackList": [
+        "cctv.camera",
+        "target.computer",
+        "Weapon",
+        "Attire",
+        "Tool"
+      ]
+    },
+    "Grow": {
+      "Value": 2.0,
+      "WhiteList": null,
+      "BlackList": null
+    },
+    "Dispenser": {
+      "Value": 2.0,
+      "WhiteList": null,
+      "BlackList": null
+    },
+    "Quarry": {
+      "Value": 2.0,
+      "WhiteList": null,
+      "BlackList": null
+    },
+    "Excavator": {
+      "Value": 2.0,
+      "WhiteList": null,
+      "BlackList": null
+    },
+    "Collectible": {
+      "Value": 2.0,
+      "WhiteList": null,
+      "BlackList": null
+    },
+    "Survey": {
+      "Value": 2.0,
+      "WhiteList": null,
+      "BlackList": null
+    }
+  },
+  "EventManager": {
+    "Settings": {
+      "Delay": 20.0,
+      "Log": false
+    },
+    "ManagerTimer": null,
+    "Messaging": {
+      "Icon": 0,
+      "Title": "",
+      "TitleColor": "orange",
+      "TitleSize": 20,
+      "MessageColor": "white",
+      "MessageSize": 15,
+      "Text": ""
+    },
+    "EventsLibrary": {
+      "TestEvent": {
+        "Name": "Bonfire of Vanities",
+        "StartTime": "20:00:00",
+        "EndTime": "8:00:00",
+        "StartMessage": {
+          "Icon": 0,
+          "Title": "SERVER EVENT",
+          "TitleColor": "yellow",
+          "TitleSize": 20,
+          "MessageColor": "white",
+          "MessageSize": 15,
+          "Text": "\nBonfire of Vanities has begun."
+        },
+        "EndMessage": {
+          "Icon": 0,
+          "Title": "SERVER EVENT\n",
+          "TitleColor": "yellow",
+          "TitleSize": 20,
+          "MessageColor": "white",
+          "MessageSize": 15,
+          "Text": "\nBonfire of Vanities has ended."
+        },
+        "CanEventStart": false,
+        "IsEvent": false,
+        "EventChance": 1,
+        "CurrentRoll": 0,
+        "ChanceRolled": false,
+        "Multipliers": {
+          "FireDamage": {
+            "Value": 4.0,
+            "WhiteList": null,
+            "BlackList": null
+          },
+          "StructDamage": {
+            "Value": 2.0,
+            "WhiteList": null,
+            "BlackList": null
+          },
+          "Loot": {
+            "Value": 2.0,
+            "WhiteList": [
+              "loot-barrel-1",
+              "loot-barrel-2",
+              "loot_barrel_1",
+              "loot_barrel_2",
+              "crate_underwater_basic",
+              "crate_underwater_advanced",
+              "foodbox",
+              "trash-pile-1",
+              "minecart",
+              "oil_barrel",
+              "crate_basic",
+              "crate_mine",
+              "crate_tools",
+              "crate_normal",
+              "crate_normal_2",
+              "crate_normal_2_food",
+              "crate_normal_2_medical",
+              "crate_elite",
+              "codelockedhackablecrate",
+              "bradley_crate",
+              "heli_crate",
+              "supply_drop"
+            ],
+            "BlackList": [
+              "cctv.camera",
+              "target.computer",
+              "Weapon",
+              "Attire",
+              "Tool"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "AnnouncementManager": {
+    "Settings": {
+      "Delay": 120.0,
+      "Log": false
+    },
+    "Messaging": {
+      "Icon": 0,
+      "Title": "",
+      "TitleColor": "orange",
+      "TitleSize": 20,
+      "MessageColor": "white",
+      "MessageSize": 15,
+      "Text": ""
+    },
+    "ManagerTimer": null,
+    "Announcements": {
+      "Welcome to RustReforged!": "Join our discord for latest updates + events\n<color=yellow>discord.gg/8aZF4Qk</color>",
+      "Experiencing issues?": "Please let us know about any glitches/bugs/issues in our discord."
+    }
+  }
+}
